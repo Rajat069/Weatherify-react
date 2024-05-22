@@ -47,7 +47,7 @@ export default function BottomB(props) {
           {props.data.visibility ? (
             <p className="bold">
               <MdOutlineVisibility /> &nbsp;
-              {props.data.visibility / 10} KM
+              {props.data.visibility / 1000} KM
             </p>
           ) : null}
           <p>Visibility</p>
