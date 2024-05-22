@@ -8,7 +8,7 @@ import countries from "./assets/countries.json";
 
 function App() {
   const [data, setData] = useState({});
-  const [location, setLocation] = useState("");
+  const [, setLocation] = useState("");
   const [country, setCountry] = useState("");
   const searchLocation = () => {
     const newLocation = document.getElementById("sea").value;
